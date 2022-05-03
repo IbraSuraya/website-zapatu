@@ -19,7 +19,106 @@
 
 <body>
 
-    
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <!-- Logo  -->
+            <a href="dashboard.html" class="navbar-brand mt-3 mb-3">
+                <h3>ZAPATU Company</h3>
+            </a>
+
+            <!-- Bikin tombol dikanan  -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <!-- Menu  -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <!-- Dasboard -->
+                    <li class="nav-item  mx-md-2">
+                        <a href="#" class="nav-link active">Dasboard</a>
+                    </li>
+
+                    <!-- History -->
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">History</a>
+                    </li>
+
+                    <!-- Product -->
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Product</a>
+                    </li>
+
+                    <!-- Profile -->
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Profile</a>
+                    </li>
+
+                    <!-- Mobile Button Login  -->
+                    <form class="form-inline d-sm-block d-md-none">
+                        <button class="btn btn-login my-2 my-sm-0">
+                            Masuk
+                        </button>
+                    </form>
+
+                    <!-- Desktop Button Login  -->
+                    <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                        <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                            Logout
+                        </button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- BG Hiasan -->
+        <section class="section-dash-header"></section>
+        <section class="section-dash-content">
+
+            <!-- breadcrump -->
+            <div class="container">
+                <div class="col p-0">
+                    <nav>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                Dashboard
+                            </li>
+                            <li class="breadcrumb-item active">
+                                Contoh
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="container">
+            <div class="footer-info">
+                <h4>Saturday 24 / 04 / 2022 &nbsp; • &nbsp; 17 : 30 : 23 </h4>
+                <img src="fe\images\ic-help.png" alt="icon-help">
+            </div>
+        </div>
+        <!-- Copyright  -->
+        <div class="container-fluid">
+            <div class="footer-copyright">
+                <div class="row border-top justify-content-center align-items-center pt-4 mb-5">
+                    <div class="col-auto text-gray-500 font-weight-light pt-2">
+                        <p style="color:#6E6E6E">2022 Copyright Zapatu • All right reserved • Made in Jakarta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="fe/libraries/bootstrap/js/bootstrap.js"></script>
     <script src="fe/libraries/retina/retina.min.js"></script>

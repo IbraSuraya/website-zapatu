@@ -1,0 +1,98 @@
+// Global
+body {
+    background-color: #F6F6F6;
+    font-family: 'Poppins', sans-serif;
+    color: #071C4D;
+}
+
+// Logo
+.navbar-brand {
+    h3 {
+        font-size: 36px;
+        font-weight: 400;
+    }
+}
+
+// Button Logout
+.btn-login {
+    background-color: #FF6600;
+    color: #fff;
+    font-size: 24px;
+
+    &:hover {
+        background-color: #ff893b;
+        color: #fff;
+    }
+}
+
+// Menu NavBar 
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #071C4D;
+            font-size: 24px;
+            margin-right: 24px;
+
+            &:hover {
+                font-weight: 600;
+                color: #122f74 !important;
+            }
+
+            &.active {
+                font-weight: 500;
+                color: #071C4D;
+
+                &:hover {
+                    font-weight: 600;
+                    color: #122f74 !important;
+                }
+            }
+        }
+    }
+}
+
+// Dashboard-BG Abu
+.section-dash-header {
+    min-height: 252px;
+    background-color: #DBDBDB;
+}
+
+.section-dash-content {
+    margin-top: -210px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0px;
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .breadcrumb-item {
+        &.active {
+            font-weight: 500;
+            color: #071C4D;
+        }
+    }
+}
+
+.footer-info {
+    h4 {
+        font-size: 16px;
+        font-weight: 300;
+        color: #6E6E6E;
+    }
+
+    img {
+        height: 44px;
+        width: 44px;
+        float: right;
+        margin-top: -50px;
+    }
+}
+
+.footer-copyright {
+    p {
+        font-size: 16px;
+    }
+}
